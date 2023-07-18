@@ -53,14 +53,14 @@ const Header = () => {
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
               <a
                 className="font-medium text-green-600 sm:py-6 "
-                href="#"
+                href="home"
                 aria-current="page"
               >
                 Home
               </a>
               <a
                 className="font-medium text-gray-500 hover:text-green-600 sm:py-6 "
-                href="#"
+                href="about"
               >
                 About Us
               </a>
