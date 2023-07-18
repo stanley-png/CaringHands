@@ -7,16 +7,16 @@ const HeroSection = () => {
         <div>
           <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight ">
             Start your journey with{" "}
-            <span className="text-blue-600">Preline</span>
+            <span className="text-green-600">Preline</span>
           </h1>
-          <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
+          <p className="mt-3 text-lg text-gray-800 ">
             Hand-picked professionals and expertly crafted components, designed
             for any kind of entrepreneur.
           </p>
 
           <div className="mt-7 grid gap-3 w-full sm:inline-flex">
             <a
-              className="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
+              className="inline-flex justify-center items-center gap-x-3 text-center bg-green-600 hover:bg-green-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
               href="#"
             >
               Donate
@@ -36,7 +36,7 @@ const HeroSection = () => {
               </svg>
             </a>
             <a
-              className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+              className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
               href="#"
             >
               Contact sales team
