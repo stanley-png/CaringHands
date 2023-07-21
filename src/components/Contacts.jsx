@@ -6,7 +6,7 @@ const Contacts = () => {
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="max-w-2xl lg:max-w-5xl mx-auto">
           <div class="text-center">
-            <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl ">
+            <h1 class="text-3xl font-bold text-green-600 sm:text-4xl ">
               Contact us
             </h1>
             <p class="mt-1 text-gray-600 ">
@@ -31,7 +31,7 @@ const Contacts = () => {
                         type="text"
                         name="hs-firstname-contacts-1"
                         id="hs-firstname-contacts-1"
-                        class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 "
+                        class="py-3 px-4 block w-full border border-gray-300 rounded-md text-sm focus:border-green-500 focus:ring-green-500 "
                         placeholder="First Name"
                       />
                     </div>
@@ -44,7 +44,7 @@ const Contacts = () => {
                         type="text"
                         name="hs-lastname-contacts-1"
                         id="hs-lastname-contacts-1"
-                        class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 "
+                        class="py-3 px-4 block w-full border border-gray-300 rounded-md text-sm focus:border-green-500 focus:ring-green-500 "
                         placeholder="Last Name"
                       />
                     </div>
@@ -59,7 +59,7 @@ const Contacts = () => {
                       name="hs-email-contacts-1"
                       id="hs-email-contacts-1"
                       autocomplete="email"
-                      class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 "
+                      class="py-3 px-4 block w-full border border-gray-300 rounded-md text-sm focus:border-green-500 focus:ring-green-500 "
                       placeholder="Email"
                     />
                   </div>
@@ -72,7 +72,7 @@ const Contacts = () => {
                       type="text"
                       name="hs-phone-number-1"
                       id="hs-phone-number-1"
-                      class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 "
+                      class="py-3 px-4 block w-full border border-gray-300 rounded-md text-sm focus:border-green-500 focus:ring-green-500 "
                       placeholder="Phone Number"
                     />
                   </div>
@@ -85,7 +85,7 @@ const Contacts = () => {
                       id="hs-about-contacts-1"
                       name="hs-about-contacts-1"
                       rows="4"
-                      class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 "
+                      class="py-3 px-4 block w-full border border-gray-300 rounded-md text-sm focus:border-green-500 focus:ring-green-500 "
                       placeholder="Details"
                     ></textarea>
                   </div>
@@ -94,7 +94,7 @@ const Contacts = () => {
                 <div class="mt-4 grid">
                   <button
                     type="submit"
-                    class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
+                    class="inline-flex justify-center items-center gap-x-3 text-center bg-green-600 hover:bg-green-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
                   >
                     Send inquiry
                   </button>
