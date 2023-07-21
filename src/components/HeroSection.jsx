@@ -13,8 +13,7 @@ const HeroSection = () => {
             <span className="text-green-600">Preline</span>
           </h1>
           <p className="mt-3 text-lg text-gray-800 ">
-            Hand-picked professionals and expertly crafted components, designed
-            for any kind of entrepreneur.
+            Over 95% of all the donations go directly to projects.
           </p>
 
           <div className="mt-7 grid gap-3 w-full sm:inline-flex">
@@ -42,7 +41,7 @@ const HeroSection = () => {
               className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
               href="#"
             >
-              Contact sales team
+              Contact Us
             </a>
           </div>
         </div>
