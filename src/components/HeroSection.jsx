@@ -4,13 +4,13 @@ const HeroSection = () => {
   return (
     <main
       id="home"
-      className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-12"
+      className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-24 h-[60vh]"
     >
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
           <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight ">
-            Start your journey with{" "}
-            <span className="text-green-600">Preline</span>
+            Donate to a starving child with
+            <span className="text-green-600">Caring Hands</span>
           </h1>
           <p className="mt-3 text-lg text-gray-800 ">
             Over 95% of all the donations go directly to projects.
@@ -48,7 +48,7 @@ const HeroSection = () => {
 
         <div className="relative ml-4">
           <img
-            className="w-full rounded-md"
+            className="w-full rounded-md md:min-h-[400px]"
             src="https://www.tearfund.org/-/media/tearfund/images/get-involved/donate/donatepage-smilingchild-overview.jpg?mw=1200"
             alt="Image Description"
           />

@@ -1,9 +1,10 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Link, Element } from "react-scroll";
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import Vision from "./components/Vision"
 import Contacts from "./components/Contacts"
+import Gallery from "./components/Gallery"
 
 /* @ts-ignore */
 import("preline");
@@ -16,6 +17,10 @@ function App() {
       <HeroSection/>
       <Vision/>
       <Contacts/>
+      <Element>
+      <Gallery/>
+      </Element>
+
     </main>
   )
 }

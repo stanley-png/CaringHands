@@ -3,7 +3,10 @@ import React from "react";
 const Contacts = () => {
   return (
     <main>
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div
+        id="contacts"
+        class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto min-h-[100vh]"
+      >
         <div class="max-w-2xl lg:max-w-5xl mx-auto">
           <div class="text-center">
             <h1 class="text-3xl font-bold text-green-600 sm:text-4xl ">

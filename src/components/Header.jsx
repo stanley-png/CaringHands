@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Link, Element } from "react-scroll";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -7,7 +8,7 @@ const Header = () => {
     <main>
       <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 ">
         <nav
-          className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+          className="relative max-w-7xl w-full mx-auto sm:flex sm:items-center sm:justify-between md:px-3 px-3"
           aria-label="Global"
         >
           <div className="flex items-center justify-between">
@@ -51,37 +52,43 @@ const Header = () => {
             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
           >
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
-              <a
-                className="font-medium text-green-600 sm:py-6 "
-                href="home"
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="font-medium text-green-600 sm:py-6 cursor-pointer"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
               <a
                 className="font-medium text-gray-500 hover:text-green-600 sm:py-6 "
                 href="about"
               >
                 About Us
               </a>
-              <a
-                className="font-medium text-gray-500 hover:text-green-600 sm:py-6 "
-                href="#"
+              <Link
+                to="contacts"
+                smooth={true}
+                duration={500}
+                className="font-medium text-gray-500 hover:text-green-600 sm:py-6 cursor-pointer"
               >
                 Contact Us
-              </a>
+              </Link>
               <a
                 className="font-medium text-gray-500 hover:text-green-600 sm:py-6 "
                 href="#"
               >
                 Blog
               </a>
-              <a
-                className="font-medium text-gray-500 hover:text-green-600 sm:py-6 "
-                href="#"
+              <Link
+                to="gallery"
+                smooth={true}
+                duration={500}
+                className="font-medium text-gray-500 hover:text-green-600 sm:py-6 cursor-pointer"
               >
                 Gallery
-              </a>
+              </Link>
               <button
                 onClick={() => navigate("/login")}
                 className="bg-green-600 border border-green-600 hover:bg-transparent rounded-full py-2 px-8 text-white hover:text-green-600 font-semibold"
