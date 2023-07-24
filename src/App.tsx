@@ -14,10 +14,16 @@ function App() {
   return (
     <main>
       <Header/>
+      <Element name="home">
+
       <HeroSection/>
+      </Element>
       <Vision/>
+      <Element name="contacts">
+
       <Contacts/>
-      <Element>
+      </Element>
+      <Element name="gallery">
       <Gallery/>
       </Element>
 

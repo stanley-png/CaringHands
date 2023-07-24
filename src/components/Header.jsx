@@ -5,7 +5,7 @@ import { Link, Element } from "react-scroll";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <main>
+    <main className="">
       <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 ">
         <nav
           className="relative max-w-7xl w-full mx-auto sm:flex sm:items-center sm:justify-between md:px-3 px-3"
