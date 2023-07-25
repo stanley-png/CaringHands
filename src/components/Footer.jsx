@@ -5,29 +5,12 @@ const Footer = () => {
     <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
       <div class="text-center">
         <div>
-          <a
-            class="flex-none text-xl font-semibold text-black dark:text-white"
-            href="#"
-            aria-label="Brand"
-          >
-            Brand
-          </a>
+          <p class="flex-none text-xl font-bold text-green-600">Caring Hands</p>
         </div>
 
         <div class="mt-3">
-          <p class="text-gray-500">
-            We're part of the{" "}
-            <a
-              class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400"
-              href="#"
-            >
-              Htmlstream
-            </a>{" "}
-            family.
-          </p>
-          <p class="text-gray-500">
-            © Preline. 2022 Htmlstream. All rights reserved.
-          </p>
+          <p class="text-gray-500">Donate to a starving child </p>
+          <p class="text-gray-500">© caringhands 2023, All rights reserved.</p>
         </div>
 
         <div class="mt-3 space-x-2">

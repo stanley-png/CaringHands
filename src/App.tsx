@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection"
 import Vision from "./components/Vision"
 import Contacts from "./components/Contacts"
 import Gallery from "./components/Gallery"
+import Footer from "./components/Footer"
 
 /* @ts-ignore */
 import("preline");
@@ -26,6 +27,7 @@ function App() {
       <Element name="gallery">
       <Gallery/>
       </Element>
+      <Footer/>
 
     </main>
   )
