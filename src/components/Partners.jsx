@@ -5,7 +5,9 @@ const Partners = () => {
     <main>
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class=" mx-auto text-center mb-6">
-          <h2 class="text-green-600 font-bold">Our Trusted Partners</h2>
+          <h2 class="text-green-600 font-bold text-4xl">
+            Our Trusted Partners
+          </h2>
         </div>
 
         <div class="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
