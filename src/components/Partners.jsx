@@ -3,14 +3,14 @@ import React from "react";
 const Partners = () => {
   return (
     <main className="my-10">
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
-        <div class=" mx-auto text-center mb-6">
-          <h2 class="text-green-600 font-bold text-4xl">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
+        <div className=" mx-auto text-center mb-6">
+          <h2 className="text-green-600 font-bold text-4xl">
             Our Trusted Partners
           </h2>
         </div>
 
-        <div class="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24 mt-5">
+        <div className="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24 mt-5">
           <img
             width="250"
             height="10"
@@ -19,7 +19,7 @@ const Partners = () => {
           />
 
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2428 1002"
@@ -51,7 +51,7 @@ const Partners = () => {
           </svg>
 
           <svg
-            class="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
+            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-gray-500"
             viewBox="0 -8.881784197001252e-16 267.51517722360785 65.24679557585003"
             xmlns="https://melbite.com/static/media/melbite.2d4c3139.jpg"
             width="2500"
