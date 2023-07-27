@@ -3,28 +3,28 @@ import React from "react";
 const Footer = () => {
   return (
     <main className=" border-t-2">
-      <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto ">
-        <div class="text-center">
+      <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto ">
+        <div className="text-center">
           <div>
-            <p class="flex-none text-xl font-bold text-green-600">
+            <p className="flex-none text-xl font-bold text-green-600">
               Caring Hands
             </p>
           </div>
 
-          <div class="mt-3">
-            <p class="text-gray-500">Donate to a starving child </p>
-            <p class="text-gray-500">
+          <div className="mt-3">
+            <p className="text-gray-500">Donate to a starving child </p>
+            <p className="text-gray-500">
               © caringhands 2023, All rights reserved.
             </p>
           </div>
 
-          <div class="mt-3 space-x-2">
+          <div className="mt-3 space-x-2">
             <a
-              class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full  "
+              className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full  "
               href="#"
             >
               <svg
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -35,11 +35,11 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
+              className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
               href="#"
             >
               <svg
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -50,11 +50,11 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
+              className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
               href="#"
             >
               <svg
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -65,11 +65,11 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
+              className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full "
               href="#"
             >
               <svg
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
